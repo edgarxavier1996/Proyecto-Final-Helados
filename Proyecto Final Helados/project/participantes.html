@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Plantilla</title>
+    <style>
+        body {
+            background-image: url(./assets/background.jpg);
+
+            background-size: cover;
+            /* Ajusta la imagen para que cubra todo el contenedor */
+            background-repeat: no-repeat;
+            /* Evita la repetición de la imagen */
+            background-attachment: fixed;
+            /* Fija la imagen de fondo para que no se desplace con el desplazamiento de la página */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        
+
+        .thanis {
+            background-color: #748E63;
+            padding: 10px;
+            background-size: cover;
+            /* Ajusta la imagen para que cubra todo el contenedor */
+            background-repeat: no-repeat;
+            /* Evita la repetición de la imagen */
+            background-attachment: fixed;
+            /* Fija la imagen de fondo para que no se desplace con el desplazamiento de la página */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .thanis_stats {
+            background-color: #748E63;
+            color: white;
+            text-align: center;
+            background-size: cover;
+            /* Ajusta la imagen para que cubra todo el contenedor */
+            background-repeat: no-repeat;
+            /* Evita la repetición de la imagen */
+            background-attachment: fixed;
+            /* Fija la imagen de fondo para que no se desplace con el desplazamiento de la página */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .stats {
+            background-color: #9EB384;
+            color: white;
+            border: 3px solid white;
+            border-radius: 10px;
+            background-size: cover;
+            /* Ajusta la imagen para que cubra todo el contenedor */
+            background-repeat: no-repeat;
+            /* Evita la repetición de la imagen */
+            background-attachment: fixed;
+            /* Fija la imagen de fondo para que no se desplace con el desplazamiento de la página */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.3);
+            text-align: center;
+        }
+        .navbar {
+            background-color: #00471B;
+        }
+
+        /* Alineación del texto en el centro y tamaño del logo */
+        .navbar-brand {
+            text-align: center;
+            font-size: 24px;
+        }
+        .plantilla{
+            color: white;
+            background-color: #004225;
+            color: orange;
+            text-align: center;
+            background-size: cover;
+            /* Ajusta la imagen para que cubra todo el contenedor */
+            background-repeat: no-repeat;
+            /* Evita la repetición de la imagen */
+            background-attachment: fixed;
+            /* Fija la imagen de fondo para que no se desplace con el desplazamiento de la página */
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: #004225;
+            border: 2px solid orange;
+            border-radius: 10px;
+            display: inline-flexbox;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00471B;">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html"><img src="assets/bucks.png" alt=""
+                        style="width: 25%; height: auto;"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./proximo_par.html">Proximos Partidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./participantes.html">Participantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./acerca_de.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./merch.html">Merch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./high.html">Highlights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./director.html">Director de equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pos_nba.html">Posiciones Nba</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./arena.html">Arena</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <br>
+        <center>
+            <h1 class="plantilla">PLANTILLA</h1>
+        </center>
+    </header>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/thanis.png" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">GIANNIS ANTETOKOUNMPO</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 2.11
+                    <br>
+                    <br>
+                    Peso: 110.2kilogramos
+                    <br>
+                    <br>
+                    Nacimiento: 06-12-1994
+                    <br>
+                    <br>
+                    Puesto en draft: 2013
+                    <br>
+                    <br>
+                    Experiencia: 10 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Filathlitikos/Greece
+                    <br>
+                    <br>
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/thanis2.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">THANASIS ANTETOKOUNMPO</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 2.01
+                    <br>
+                    <br>
+                    Peso: 99.3kilogramos
+                    <br>
+                    <br>
+                    Nacimiento: 17-7-1992
+                    <br>
+                    <br>
+                    Puesto en draft: 2014
+                    <br>
+                    <br>
+                    Experiencia: 5 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Greece
+                    <br>
+                    <br>
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/mark.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">MALIK BEASLEY</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 1.93
+                    <br>
+                    <br>
+                    Peso: 84.8 kilogramos
+                    <br>
+                    <br>
+                    Nacimiento: 26-11-1996
+                    <br>
+                    <br>
+                    Puesto en draft: 2016
+                    <br>
+                    <br>
+                    Experiencia: 7 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Florida State/United States
+                    <br>
+                    <br>
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/churon.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">MARJON BEAUCHAMP</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 2.01
+                    <br>
+                    <br>
+                    Peso: 90.3kilogramos
+                    <br>
+                    <br>
+                    Nacimiento: 11-10-2000
+                    <br>
+                    <br>
+                    Puesto en draft: 2022
+                    <br>
+                    <br>
+                    Experiencia: 1 años
+                    <br>
+                    <br>
+                    Antes de la NBA: NBA G League Ignite/United States
+                    <br>
+                    <br>
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/j2.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">MARQUES BOLDEN</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 2.08 m
+                    <br>
+                    <br>
+                    Peso: 112.9 kilogramos
+                    <br>
+                    <br>
+                    Nacido el: 16-04-1998
+                    <br>
+                    <br>
+                    Puesto en draft: 2019
+                    <br>
+                    <br>
+                    Experiencia: 2 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Duke/United States
+                    <br>
+                    <br>
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/j3.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">PAT CONNAUGHTON</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 1.96 m
+                    <br>
+                    <br>
+                    Peso: 94.8 kilogramos
+                    <br>
+                    <br>
+                    Nacido el: 06-01-1993
+                    <br>
+                    <br>
+                    Puesto en draft: 2015
+                    <br>
+                    <br>
+                    Experiencia: 8 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Notre Dame/United States
+                    <br>
+                    <br>
+
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/j4.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">JAE CROWDER</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 1.98 m
+                    <br>
+                    <br>
+                    Peso: 106.6 kilogramos
+                    <br>
+                    <br>
+                    Nacido el: 05-07-1990
+                    <br>
+                    <br>
+                    Puesto en draft: 2012
+                    <br>
+                    <br>
+                    Experiencia: 11 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Marquette/United States
+                    <br>
+                    <br>
+
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/j5.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">AJ GREEN</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 1.93 m
+                    <br>
+                    <br>
+                    Peso: 86.2 kilogramos
+                    <br>
+                    <br>
+                    Nacido el: 26-09-1999
+                    <br>
+                    <br>
+                    Puesto en draft: 2022
+                    <br>
+                    <br>
+                    Experiencia: 1 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Northern Iowa/United States
+                    <br>
+                    <br>
+
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/j6.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">ANDRE JACKSON JR.</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 1.98 m
+                    <br>
+                    <br>
+                    Peso: 94.8 kilogramos
+                    <br>
+                    <br>
+                    Nacido el: 13-11-2001
+                    <br>
+                    <br>
+                    Puesto en draft: 2023
+                    <br>
+                    <br>
+                    Experiencia: 0 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Connecticut/United States
+                    <br>
+                    <br>
+
+                </h3>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/j7.jpg" alt="" style="width: 75%;" class="thanis">
+            </div>
+            <div class="col" style="width: 75%;">
+                <h1 class="thanis_stats">DAMIAN LILLARD</h1>
+                <br>
+                <h3 class="stats">
+                    <br>
+                    Altura: 1.88 m
+                    <br>
+                    <br>
+                    Peso: 88.5 kilogramos
+                    <br>
+                    <br>
+                    Nacido el: 14-07-1990
+                    <br>
+                    <br>
+                    Puesto en draft: 2012
+                    <br>
+                    <br>
+                    Experiencia: 11 años
+                    <br>
+                    <br>
+                    Antes de la NBA: Weber State/United States
+                    <br>
+                    <br>
+
+                </h3>
+            </div>
+
+        </div>
+    </div>\
+    <footer class="text-center text-white" style="background-color:#00471B;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Inicio</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="./index.html" class="text-white">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="./arena.html" class="text-white">Arena</a>
+                        </li>
+                        <li>
+                            <a href="./merch.html" class="text-white">Merch</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Partidos</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="./proximo_par.html" class="text-white">Proximos Partidos</a>
+                        </li>
+                        <li>
+                            <a href="./high.html" class="text-white">Highlights</a>
+                        </li>
+                        <li>
+                            <a href="./participantes.html" class="text-white">Plantilla</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Sobre Nosotros</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="./noticias.html" class="text-white">Noticias</a>
+                        </li>
+                        <li>
+                            <a href="./acerca_de.html" class="text-white">Acerca de</a>
+                        </li>
+                        <li>
+                            <a href="./director.html" class="text-white">Director de equipo</a>
+                        </li>
+                        <li>
+                            <a href="./pos_nba.html" class="text-white">Posiciones Nba</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Redes Sociales</h5>
+                    <ul class="list-unstyled mb-0">
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/bucks" role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/milwaukeebucks"
+                            role="button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/bucks" role="button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/bucks"
+                            role="button">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.tiktok.com/@bucks"
+                            role="button">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color:#00471B;">
+            © 2023 Copyright: Joel Caza & Mathias Cruz
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proximos Partidos</title>
+    <!-- Agregar enlaces a las bibliotecas de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+   <style>
+    .acerca_de_body {
+    background-image: url(./assets/background.jpg);
+
+    background-size: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor */
+    background-repeat: no-repeat;
+    /* Evita la repetición de la imagen */
+    background-attachment: fixed;
+    /* Fija la imagen de fondo para que no se desplace con el desplazamiento de la página */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.card-img-team{
+    width: 100%;
+}
+   </style>
+</head>
+
+<body class="acerca_de_body">
+
+    <!-- Barra de navegación colapsable -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="assets/bucks.png" alt=""
+                style="width: 25%; height: auto;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./proximo_par.html">Proximos Partidos</a>
+                    
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./participantes.html">Participantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./acerca_de.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./merch.html">Merch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./high.html">Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./director.html">Director de equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pos_nba.html">Posiciones Nba</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./arena.html">Arena</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <h1 class="text-center">Próximos Partidos</h1>
+
+        <!-- Creación de tarjetas (cards) para los partidos -->
+        <div class="row">
+            <!-- Tarjeta 1 -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card card-partidos">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/bucks.png" class="card-img-top" alt="Logo Equipo 1">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/audio/miamiheat.png" class="card-img-top" alt="Logo Equipo 2">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Milwaukee Bucks vs Miami Heat</h5>
+                        <p class="card-text">Fecha del partido: 30 de Octubre, 2023</p>
+                        <a href="https://www.ticketmaster.com/milwaukee-bucks-vs-miami-heat-milwaukee-wisconsin-10-30-2023/event/07005F1FE9993B7F?brand=bucks" class="btn btn-primary">
+                            <i class="fas fa-ticket-alt"></i> Tickets
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card card-partidos">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/bucks.png" class="card-img-top" alt="Logo Equipo 1">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/toronto.png" class="card-img-top" alt="Logo Equipo 2">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Toronto Raptors vs Milwaukee Bucks</h5>
+                        <p class="card-text">Fecha del partido: 01 de Noviembre, 2023</p>
+                        <a href="https://www.ticketmaster.com/milwaukee-bucks-vs-miami-heat-milwaukee-wisconsin-10-30-2023/event/07005F1FE9993B7F?brand=bucks" class="btn btn-primary">
+                            <i class="fas fa-ticket-alt"></i> Tickets
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card card-partidos">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/bucks.png" class="card-img-top" alt="Logo Equipo 1">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/knicks.png" class="card-img-top" alt="Logo Equipo 2">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Milwaukee Bucks vs New York Nicks</h5>
+                        <p class="card-text">Fecha del partido: 03 de Noviembre, 2023</p>
+                        <a href="https://www.ticketmaster.com/milwaukee-bucks-vs-miami-heat-milwaukee-wisconsin-10-30-2023/event/07005F1FE9993B7F?brand=bucks" class="btn btn-primary">
+                            <i class="fas fa-ticket-alt"></i> Tickets
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 (Replicar esta estructura para más partidos) -->
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card card-partidos">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/bucks.png" class="card-img-top" alt="Logo Equipo 3">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/nets.png" class="card-img-top" alt="Logo Equipo 4">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Brooklyn Nets vs Milwaukee Bucks</h5>
+                        <p class="card-text">Fecha del partido: 06 de Noviembre, 2023</p>
+                        <a href="https://www.ticketmaster.com/milwaukee-bucks-vs-miami-heat-milwaukee-wisconsin-10-30-2023/event/07005F1FE9993B7F?brand=bucks" class="btn btn-primary">
+                            <i class="fas fa-ticket-alt"></i> Tickets
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card card-partidos">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/bucks.png" class="card-img-top" alt="Logo Equipo 3">
+                        </div>
+                        
+                        <div class="col-6">
+                            <img src="assets/pistons.png" class="card-img-team" alt="Logo Equipo 4">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Milwaukee Bucks vs Detroit Pistons</h5>
+                        <p class="card-text">Fecha del partido: 05 de Noviembre, 2023</p>
+                        <a href="https://www.ticketmaster.com/milwaukee-bucks-vs-miami-heat-milwaukee-wisconsin-10-30-2023/event/07005F1FE9993B7F?brand=bucks" class="btn btn-primary">
+                            <i class="fas fa-ticket-alt"></i> Tickets
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card card-partidos">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/bucks.png" class="card-img-top" alt="Logo Equipo 3">
+                        </div>
+                        <div class="col-6">
+                            <img src="assets/pacers.png" class="card-img-top" alt="Logo Equipo 4">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Milwaukee Bucks vs Indiana Pacers</h5>
+                        <p class="card-text">Fecha del partido: 05 de Noviembre, 2023</p>
+                        <a href="https://www.ticketmaster.com/milwaukee-bucks-vs-miami-heat-milwaukee-wisconsin-10-30-2023/event/07005F1FE9993B7F?brand=bucks" class="btn btn-primary">
+                            <i class="fas fa-ticket-alt"></i> Tickets
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <!-- Agregar los scripts necesarios de Bootstrap al final del body -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <footer class=" text-center text-white" style="background-color:#00471B">
+     <!-- Grid container -->
+     <div class="container p-4"> 
+         </section>
+         <!-- Section: Social media -->
+
+         <!-- Section: Links -->
+         <section class="">
+             <!--Grid row-->
+             <div class="row">
+                 <!--Grid column-->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase">Inicio</h5>
+
+                     <ul class="list-unstyled mb-0">
+                         <li>
+                             <a href="./index.html" class="text-white">Inicio</a>
+                         </li>
+                         <li>
+                             <a href="./arena.html" class="text-white">Arena</a>
+                         </li>
+                         <li>
+                             <a href="./merch.html" class="text-white">Merch</a>
+                         </li>
+
+
+                     </ul>
+                 </div>
+                 <!--Grid column-->
+
+                 <!--Grid column-->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase">Partidos</h5>
+
+                     <ul class="list-unstyled mb-0">
+                         <li>
+                             <a href="./proximo_par.html" class="text-white">Proximos Partidos</a>
+                         </li>
+                         <li>
+                             <a href="./high.html" class="text-white">Highlights</a>
+                         </li>
+                         <li>
+                             <a href="./participantes.html" class="text-white">Plantilla</a>
+                         </li>
+
+                     </ul>
+                 </div>
+                 <!--Grid column-->
+
+                 <!--Grid column-->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase">Sobre Nosotros</h5>
+
+                     <ul class="list-unstyled mb-0">
+                         <li>
+                             <a href="./noticias.html" class="text-white">Noticias</a>
+                         </li>
+                         <li>
+                             <a href="./acerca_de.html" class="text-white">Acerca de</a>
+                         </li>
+                         <li>
+                             <a href="./director.html" class="text-white">Director de equipo</a>
+                         </li>
+                         <li>
+                             <a href="./pos_nba.html" class="text-white">Posiciones Nba</a>
+                         </li>
+                     </ul>
+                 </div>
+                 <!--Grid column-->
+
+                 <!--Grid column-->
+                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                     <h5 class="text-uppercase">Redes Sociales</h5>
+
+                     <ul class="list-unstyled mb-0">
+                         <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/bucks"
+                             role="button"><i class="fab fa-x"></i></a>
+                         <!-- Facebook -->
+                         <a class="btn btn-outline-light btn-floating m-1"
+                             href="https://www.facebook.com/milwaukeebucks" role="button"><i
+                                 class="fab fa-facebook-f"></i></a>
+
+                         <!-- Instagram -->
+                         <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/bucks/" role="button"><i
+                                 class="fab fa-instagram"></i></a>
+                         <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/bucks" role="button"><i
+                                 class="fab fa-youtube"></i></a>
+                         <a class="btn btn-outline-light btn-floating m-1" href="https://www.tiktok.com/@bucks" role="button"><i
+                                 class="fab fa-tiktok"></i></a>
+                     </ul>
+                 </div>
+                 <!--Grid column-->
+             </div>
+             <!--Grid row-->
+         </section>
+         <!-- Section: Links -->
+     </div>
+     <!-- Grid container -->
+
+     <!-- Copyright -->
+     <div class="text-center p-3" style="background-color:#00471B">
+         © 2023 Copyright: Joel Caza & Mathias Cruz
+
+     </div>
+     <!-- Copyright -->
+ </footer>
+
+</body> 
+
+
+
+
+</html>

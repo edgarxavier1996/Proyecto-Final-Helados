@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merch</title>
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <style>
+        body {
+            background-image: url(./assets/background.jpg);
+
+            background-size: cover;
+       
+            background-repeat: no-repeat;
+         
+            background-attachment: fixed;
+          
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        iframe {
+            width: 100%;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: 86vh;
+           
+            object-fit: cover;
+            
+        }
+
+        .container {
+            text-align: center;
+            
+        }
+
+        .advertising {
+
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #748E63;
+            color: orange;
+            text-align: center;
+            background-size: cover;
+          
+            background-repeat: no-repeat;
+          
+            background-attachment: fixed;
+           
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: #004225;
+            border: 2px solid orange;
+            border-radius: 10px;
+            display: inline-flexbox;
+           
+        }
+
+        .box {
+            background-color: #9EB384;
+            color: white;
+            border: 3px solid gray;
+            border-radius: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.3);
+            text-align: center;
+        }
+        .box-agotado{
+            background-color: #9EB384;
+            color: white;
+            border: 3px solid #FF8080;
+            border-radius: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.3);
+            text-align: center;
+        }
+
+       
+        .color-change-button {
+            background-color: #ECE3CE;
+            
+            color: #3A4D39;
+          
+            padding: 10px 20px;
+            border: 2px #ECE3CE;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            
+        }
+
+       
+        .color-change-button:hover {
+            background-color: #A8DF8E;
+           
+        }
+
+        .color-change-button:focus {
+            outline: none;
+        }
+
+        .price {
+            color: #A8DF8E;
+        }
+
+        .agotado {
+            color: #FF8080;
+        }
+
+        .color-agotado {
+            background-color: #FF8080;
+            
+            color: #3A4D39;
+            
+            padding: 10px 20px;
+            border: 2px #ECE3CE;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            
+
+        }
+        .color-agotado:focus{
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Barra de navegación colapsable -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00471B;">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="assets/bucks.png" alt=""
+                    style="width: 25%; height: auto;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./proximo_par.html">Proximos Partidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./noticias.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./participantes.html">Participantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./acerca_de.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./merch.html">Merch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./high.html">Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./director.html">Director de equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pos_nba.html">Posiciones Nba</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./arena.html">Arena</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <center>
+        <h1 class="advertising">MERCH OFICIAL</h1>
+    </center>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="box">
+                    <h3 class="price">250.00$</h3>
+                    <img src="./assets/merch1.png" alt="" class="img-fluid">
+                    <h3>Milwaukee Coat Special Gray</h3>
+                </div>
+                <a href="https://shop.bucks.com/" target="_blank">
+                    <button class="color-change-button">COMPRAR</button>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="box">
+                    <h3 class="price">59.00$</h3>
+                    <img src="./assets/merch2.png" alt="" class="img-fluid">
+                    <h3>Milwaukee Hoodie Special Green</h3>
+
+
+                </div>
+                <a href="https://shop.bucks.com/" target="_blank">
+                    <button class="color-change-button">COMPRAR</button>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="box-agotado">
+                    <h3 class="agotado">60.00$</h3>
+                    <img src="./assets/merch3.png" alt="" class="img-fluid">
+                    <h3>Milwaukee Sport Jacket Scolarship</h3>
+                </div>
+                <button class="color-agotado">AGOTADO</button>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="box">
+                    <h3 class="price">100.00$</h3>
+                    <img src="./assets/merch4.png" alt="" class="img-fluid">
+                    <h3>Milwaukee Hoodie Gray and Black</h3>
+
+                </div>
+                <a href="https://shop.bucks.com/" target="_blank">
+                    <button class="color-change-button">COMPRAR</button>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="box">
+                    <h3 class="price">29.00$</h3>
+                    <img src="./assets/merch5.png" alt="" class="img-fluid">
+                    <h3>Milwaukee Hoodie Special Black Papu</h3>
+
+
+                </div>
+                <a href="https://shop.bucks.com/" target="_blank">
+                    <button class="color-change-button">COMPRAR</button>
+                </a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="box">
+                    <h3 class="price">90.00$</h3>
+                    <img src="./assets/merch6.png" alt="" class="img-fluid">
+                    <h3>Milwaukee Hoodie Special Forest Green</h3>
+
+
+                </div>
+                <a href="https://shop.bucks.com/" target="_blank">
+                    <button class="color-change-button">COMPRAR</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br>
+    <footer class="text-center text-white" style="background-color:#00471B;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Inicio</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="./index.html" class="text-white">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="./arena.html" class="text-white">Arena</a>
+                        </li>
+                        <li>
+                            <a href="./merch.html" class="text-white">Merch</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Partidos</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="./proximo_par.html" class="text-white">Proximos Partidos</a>
+                        </li>
+                        <li>
+                            <a href="./high.html" class="text-white">Highlights</a>
+                        </li>
+                        <li>
+                            <a href="./participantes.html" class="text-white">Plantilla</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Sobre Nosotros</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="./noticias.html" class="text-white">Noticias</a>
+                        </li>
+                        <li>
+                            <a href="./acerca_de.html" class="text-white">Acerca de</a>
+                        </li>
+                        <li>
+                            <a href="./director.html" class="text-white">Director de equipo</a>
+                        </li>
+                        <li>
+                            <a href="./pos_nba.html" class="text-white">Posiciones Nba</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Redes Sociales</h5>
+                    <ul class="list-unstyled mb-0">
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/bucks" role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/milwaukeebucks"
+                            role="button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/bucks" role="button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/bucks"
+                            role="button">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.tiktok.com/@bucks"
+                            role="button">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color:#00471B;">
+            © 2023 Copyright: Joel Caza & Mathias Cruz
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

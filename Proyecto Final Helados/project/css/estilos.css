@@ -1,0 +1,153 @@
+/* styles.css */
+body {
+    background-color: #00471B;
+    color: #EEE1C6;
+}
+
+.navbar {
+    background-color: #00471B;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-size: 24px;
+}
+
+.card-body {
+
+    color: #00471B;
+}
+
+.footer {
+    background-color: #00471B;
+    padding: 20px 0;
+    color: #EEE1C6;
+    text-align: center;
+    padding: 20px 0;
+    position: bottom;
+    bottom: 0%;
+    width: 100%;
+}
+
+a:hover {
+    color: #ff0000;
+    font-weight: bold;
+    background-color: #618264;
+    border-radius: 10px;
+}
+
+.news-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.news-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.news-date {
+    color: #666;
+}
+
+.news-content {
+    margin-top: 10px;
+}
+
+.news-image {
+    max-width: 100%;
+}
+
+/* Evitar división de texto en varias líneas y usar puntos suspensivos para recortar texto largo en el navbar */
+.navbar-nav .nav-link {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Agrega estilos específicos para los iconos de redes sociales */
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icon {
+    color: white;
+    margin: 0 10px;
+}
+
+.news-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.news-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.news-date {
+    color: #666;
+}
+
+.news-content {
+    margin-top: 10px;
+}
+
+.news-image {
+    max-width: 100%;
+}
+
+.participant-info {
+    background-color: #9EB384;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 20px;
+}
+
+table img {
+    max-width: 25%;
+    height: auto;
+
+}
+
+.card-img-top {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+   }
+
+th {
+    color: white;
+}
+
+td {
+    color: white;
+}
+.card-title{
+color: black;
+}
+.card-textini{
+    color: white;
+}
+.card-text{
+    color: #00471B;
+
+}
+.news-title,.news-date,.news-content{
+    color: #00471B;
+}
